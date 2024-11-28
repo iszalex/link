@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Tree</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-pic"></div>
+    <div class="name">Nur Zaharah Binti Zulkarna'en</div>
+    
+    <div class="social-icons">
+      <div class="icon-group">
+        <a href="https://wa.me/0139334326" target="_blank" class="icon">
+          <img src="whatsapp.jpg" alt="WhatsApp">
+          <span class="icon-label">WhatsApp</span>
+        </a>
+      </div>
+      <div class="icon-group">
+        <a href="https://www.instagram.com/ssaegul/profilecard/?igsh=eHZqazExN2ZiNGwx" target="_blank" class="icon">
+          <img src="instagram.jpg" alt="Instagram">
+          <span class="icon-label">Instagram</span>
+        </a>
+      </div>
+      <div class="icon-group">
+        <a href="mailto:zaharahzulkarnaen27@gmail.com" class="icon">
+          <img src="email.jpg" alt="Email">
+          <span class="icon-label">Email</span>
+        </a>
+      </div>
+      <div class="icon-group">
+        <a href="https://www.tiktok.com/@bijneverever?_t=8rlXYak3HpY&_r=1" target="_blank" class="icon">
+          <img src="tiktok.jpg" alt="TikTok">
+          <span class="icon-label">TikTok</span>
+        </a>
+      </div>
+      <div class="icon-group">
+        <a href="https://www.facebook.com/nur.zara.142240" target="_blank" class="icon">
+          <img src="facebook.jpg" alt="Facebook">
+          <span class="icon-label">Facebook</span>
+        </a>
+      </div>
+      <div class="icon-group">
+        <a href="https://www.youtube.com/@teentalkjenayah-d8t" target="_blank" class="icon">
+          <img src="youtube.jpg" alt="YouTube">
+          <span class="icon-label">YouTube</span>
+        </a>
+      </div>
+    </div>     
+    <footer>© 2024 Nur Zaharah</footer>
+  </div>
+</body>
+</html>

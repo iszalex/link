@@ -1,0 +1,112 @@
+/* Reka Bentuk Asas untuk Badan */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+  background: url('uitm-background.jpg') no-repeat center center fixed; /* Menambah gambar latar belakang */
+  background-size: 149vh; /* Memastikan gambar latar belakang mengisi keseluruhan skrin */
+  opacity: 0.98; /* Membuat gambar latar belakang menjadi 10% kelegapan */
+}
+
+/* Kontena Utama */
+.container {
+  position: center;
+  text-align: center;
+  background: rgba(0, 165, 150, 0.9); /* Warna latar belakang container dengan 60% transparansi (lebih terang 10%) */
+  padding: 25px;
+  border-radius: 20px; /* Sudut melengkung pada container */
+  max-width: 450px; /* Menurunkan saiz lebar kontena */
+  width: 100%; /* Membesarkan saiz kontena */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px); /* Kesan kabur latar belakang */
+  min-height: 589px; /* Menambah ketinggian kontena agar lebih panjang */
+}
+
+/* Gambar Profil */
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 60%;
+  border: 3px solid #adff87;
+  background: url('profile.jpg') no-repeat center center / cover;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 10, 0.7);
+}
+
+/* Nama dengan Animasi - Horizontal */
+.name {
+  font-size: 1.5em;
+  color: white; /* Warna tulisan sama dengan latar belakang */
+  margin-bottom: 20px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white; /* Warna border sesuai dengan warna latar belakang */
+  animation: typing 3s steps(30, end), blink-caret 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 90% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #009688 }
+}
+
+/* Ikon Sosial */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+/* Kumpulan Ikon dan Nama */
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Ruang antara ikon dan label */
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  margin-top: -10px; /* Naikkan sedikit ke atas */
+}
+
+.icon-group:hover {
+  transform: scale(1.05); /* Efek membesar pada hover */
+}
+
+/* Ikon Sosial */
+.icon img {
+  width: 40px; /* Pastikan semua ikon mempunyai saiz yang sama */
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+/* Hover untuk Ikon */
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+/* Label Ikon */
+.icon-label {
+  font-size: 1.2em;
+  color: white; /* Mengubah warna tulisan menjadi putih */
+  font-weight: bold;
+  margin-left: 10px; /* Ruang antara ikon dan teks */
+}
+
+/* Footer */
+footer {
+  font-size: 0.8em;
+  color: white; /* Warna footer sesuai dengan latar belakang */
+  margin-top: 10px;
+}
